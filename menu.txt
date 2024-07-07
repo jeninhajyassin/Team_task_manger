@@ -1,0 +1,7 @@
+<ul class="menu">
+ <li><a href="home.php">Home</a></li>
+ <li><a href="search.php">Search page</a></li>
+ <li><a href="add.html">Add New</a></li>
+ <li><a href="pending.php">Pending tasks</a></li>
+ <li><a href="active.php">Active tasks</a></li>
+</ul>

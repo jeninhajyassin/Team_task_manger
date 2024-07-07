@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Add Task</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class='login-body'>
+    <form action="add.php" method="post" name="form1">
+        <h2 class='h2-login'>Add Task</h2>
+        <table width="25%" border="0">
+            <tr> 
+                <td>Title <span class="error-dot">*</span></td>
+                <td><input type="text" name="title" required></td>
+            </tr>
+            <tr> 
+                <td>Description</td>
+                <td><input type="text" name="description"></td>
+            </tr>
+            <tr> 
+                <td>End Date <span class="error-dot">*</span></td>
+                <td><input type="text" name="end_date" required></td>
+            </tr>
+            <tr> 
+                <td>Start Date <span class="error-dot">*</span></td>
+                <td><input type="text" name="start_date" required></td>
+            </tr>
+            <tr> 
+                <td>Priority</td>
+                <td>
+                    <div class="priority">
+                        <input type="radio" name="priority" id="1" value="HIGH">
+                        <label>HIGH</label><br>
+                        <input type="radio" name="priority" id="2" value="MED">
+                        <label>MED</label><br>
+                        <input type="radio" name="priority" id="3"  checked value="LOW">
+                        <label>LOW</label><br>
+                    </div>
+                </td>
+            </tr>
+            <tr> 
+                <td>Assigned To <span class="error-dot">*</span></td>
+                <td><input type="text" name="assigned_to" required></td>
+            </tr>
+            <tr> 
+                <td>Status</td>
+                <td>
+                    <div class="status">
+                        <input type="radio" name="status" id="1" checked value="Active">
+                        <label>Active</label><br>
+                        <input type="radio" name="status" id="1" value="Pending">
+                        <label >Pending</label><br>
+                        <input type="radio" name="status" id="2" value="Late">
+                        <label >Late</label><br>
+                        <input type="radio" name="status" id="3"  value="Finished">
+                        <label >Finished</label><br>
+                    </div>
+                </td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

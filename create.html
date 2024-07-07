@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class='login-body'>
+     <form action="create.php" method="post">
+        <h2 class='h2-login'>Create Account</h2>
+        <table width="25%" border="0">
+        <tr>
+            <td>
+                <label>Name</label>
+            </td>
+            <td>
+                <input type="text" name="name" placeholder="Please enter Name" required><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Identity Number</label>
+            </td>
+            <td>
+                <input type="text" name="identity_number" placeholder="Please enter Identity Number"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Nationality</label>
+            </td>
+            <td>
+                <input type="text" name="nationality" placeholder="Please enter Nationality"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Address</label>
+            </td>
+            <td>
+                <input type="text" name="address" placeholder="Please enter Address"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Mobile Number</label>
+            </td>
+            <td>
+                <input type="text" name="mobile" placeholder="Please enter Mobile"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Email Address</label>
+            </td>
+            <td>
+                <input type="text" name="email" placeholder="Please enter Email Address"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Qualification</label>
+            </td>
+            <td>
+                <div class="qualification">
+                    <span>
+                        <input type="radio" name="qualification" id="1" checked value="education">
+                    <label>education</label><br>
+                    </span>
+                    <span>
+                        <input type="radio" name="qualification" id="2" value="training">
+                    <label >training</label><br>
+                    </span>
+                </div> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Username</label>
+            </td>
+            <td>
+                <input type="text" name="username" placeholder="Please enter Username"  required><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Password</label>
+            </td>
+            <td>
+                <input type="password" name="pass" placeholder="Please enter Password"  required><br>
+            </td>
+        </tr>
+        </table>
+        <button type="submit">Create</button>
+     </form>
+</body>
+
+</html>
